@@ -14,9 +14,9 @@ function CoinInfo() {
     }
 
     function GetSentence(allSent) {
-        const sentences = allSent.split(/[.!?]/);
-        const firstTwoSentences = sentences.slice(0, 1).join(".").trim();
-        return firstTwoSentences;
+        const sentence = allSent.split(/[.!?]/);
+        const TwoSentences = sentence.slice(0, 1).join(".").trim();
+        return TwoSentences;
     }
 
     return (
