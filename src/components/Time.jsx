@@ -1,6 +1,6 @@
 import  { useState } from 'react'
 import './index.css'
-import { useCurrency } from '../../context/useContext'
+import { useCurrency } from '../context/useContext'
 
 function Time() {
     const { setDays } = useCurrency(1)

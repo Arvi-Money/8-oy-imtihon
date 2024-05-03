@@ -1,5 +1,5 @@
 import CoinInfo  from '../components/CoinInfo'
-import LineChart from '../components/charts'
+import LineChart from '../components/LineChart'
 
 function OneCoin() {
   return (

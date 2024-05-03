@@ -1,6 +1,6 @@
 import  { useState } from "react";
-import { useCurrency } from "../../context/useContext";
-import Watchlist from "../../pages/Watchlist";
+import { useCurrency } from "../context/useContext";
+import Watchlist from "../pages/Watchlist";
 
 function Navbar() {
   const { currency, setCurrency } = useCurrency();

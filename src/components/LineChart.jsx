@@ -1,10 +1,10 @@
 import './index.css'
-import { useCurrency } from '../../context/useContext';
+import { useCurrency } from '../context/useContext';
 import { useParams } from 'react-router-dom';
-import useFetch from '../../hooks/useFetch';
+import useFetch from '../hooks/useFetch';
 import { Line } from 'react-chartjs-2';
 import { Chart, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js';
-import Time from './time';
+import Time from './Time';
 
 Chart.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
