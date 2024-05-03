@@ -1,7 +1,7 @@
 import "./index.css";
 import { useParams } from "react-router-dom";
-import useFetch from "../../hooks/useFetch";
-import { useCurrency } from "../../context/useContext";
+import useFetch from "../hooks/useFetch";
+import { useCurrency } from "../context/useContext";
 
 function CoinInfo() {
     const { id } = useParams();
