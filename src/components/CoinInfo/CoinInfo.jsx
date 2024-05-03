@@ -21,11 +21,11 @@ function CoinInfo() {
 
     return (
         data && (
-            <div className="content-wrapper">
+            <div className="info-wrapper">
                 <img src={data.image.large} alt="" />
                 <h2>{data.name}</h2>
                 <p>{GetSentence(data.description.en)}.</p>
-                <div className="rank-price">
+                <div className="price">
                     <h2>
                         Rank:<span>{data.market_cap_rank}</span>
                     </h2>

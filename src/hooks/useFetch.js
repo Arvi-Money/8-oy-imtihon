@@ -14,8 +14,8 @@ const useFetch = (url, options) => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
-                const jsonData = await response.json();
-                setData(jsonData);
+                const datajson = await response.json();
+                setData(datajson);
                 setError(null);
             } catch (err) {
                 setError(err);
